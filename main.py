@@ -1,0 +1,7 @@
+print("Starting")
+light.set_all(0x000000)
+pause(1000)
+light.set_all(0xffffff)
+pause(1000)
+light.show_animation(light.rainbow_animation, 2000)
+light.set_all(0x000000)

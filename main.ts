@@ -1,0 +1,7 @@
+console.log("Starting")
+light.setAll(0x000000)
+pause(1000)
+light.setAll(0xffffff)
+pause(1000)
+light.showAnimation(light.rainbowAnimation, 2000)
+light.setAll(0x000000)
